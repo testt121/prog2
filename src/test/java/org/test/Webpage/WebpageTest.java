@@ -21,7 +21,7 @@ public class WebpageTest {
     @Test
     public void titleValidationTest() {
         String actualTitle = driver.getTitle();
-        String expectedTitle = "proo2";
+        String expectedTitle = "Tripillar Solutions";
         Assert.assertEquals(actualTitle, expectedTitle);
         assertTrue(true, "Title should contain 'Your Title'");
     }
